@@ -1,0 +1,13 @@
+[Unit]
+Description=Heavy Machinery Telegram Registration Poller
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/heavy-machinery/scraper_project
+ExecStart=/opt/heavy-machinery/scraper_project/venv/bin/python3 telegram_poller.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

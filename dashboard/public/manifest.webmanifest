@@ -1,0 +1,12 @@
+{
+  "name": "Heavy Machinery Dispatch",
+  "short_name": "Dispatch",
+  "description": "Sourcing, deals, and finance for heavy machinery trading.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050711",
+  "theme_color": "#050711",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

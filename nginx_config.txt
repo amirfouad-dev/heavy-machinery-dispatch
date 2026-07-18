@@ -1,0 +1,9 @@
+server {
+    listen 8085;
+    server_name _;
+    root /opt/heavy-machinery/dashboard/dist;
+    index index.html index.htm;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+}
